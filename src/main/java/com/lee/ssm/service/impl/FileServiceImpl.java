@@ -65,6 +65,7 @@ public class FileServiceImpl implements FileService {
 
         }
 
+        // this is master
         // save to db 1
         this.userMapper.insert(users.get(0));
     }
